@@ -99,9 +99,9 @@ public class LinkedList {
          
         Node intersection = LinkedList.intersect(list1, list2);
         if(intersection != null) {
-            System.out.println(" Node intersected at " + intersection.getData());
+            System.out.println(" There is Node intersected at " + intersection.getData());
         } else {
-            System.out.println("there is no intersect!");
+            System.out.println("There is no Node intersection!");
         }
     }
 
